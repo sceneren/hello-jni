@@ -12,7 +12,12 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08264893-6d06-4834-91b6-582f63a67762" name="Default Changelist" comment="" />
+    <list default="true" id="08264893-6d06-4834-91b6-582f63a67762" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/cpp/key.c" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/cpp/key.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/swt/set/key/KeyJni.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/swt/set/key/KeyJni.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/swt/set/key/SwtKeyUtils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/swt/set/key/SwtKeyUtils.kt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,6 +29,34 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/app">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="hello-jni" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="hello-jni" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -32,10 +65,12 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1jJQ0bLvFYp78HUFHRYFVk6tAnV" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -47,7 +82,7 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="show.do.not.copy.http.proxy.settings.to.gradle" value="false" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Gradle.hello-jni:app [build]">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -112,6 +147,50 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="hello-jni:app [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/app" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="hello-jni:app [bundle]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/app" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="bundle" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.hello-jni:app [build]" />
+        <item itemvalue="Gradle.hello-jni:app [bundle]" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -124,6 +203,14 @@
       <option name="presentableId" value="Default" />
       <updated>1603519492793</updated>
     </task>
+    <task id="LOCAL-00001" summary="asd">
+      <created>1605002909229</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605002909229</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -136,36 +223,68 @@
       </list>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="asd" />
+    <option name="LAST_COMMIT_MESSAGE" value="asd" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="354" y="102" key="#Inspections" timestamp="1605239473816">
+      <screen x="0" y="25" width="1440" height="790" />
+    </state>
+    <state x="354" y="102" key="#Inspections/0.25.1440.790/1440.25.1920.1055@0.25.1440.790" timestamp="1605239473816" />
     <state x="261" y="353" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1604997084674">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state x="261" y="353" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1440.797@0.23.1440.797" timestamp="1604997084674" />
+    <state x="339" y="23" width="761" height="797" key="CommitChangelistDialog2" timestamp="1605002909085">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="339" y="23" width="761" height="797" key="CommitChangelistDialog2/0.23.1440.797@0.23.1440.797" timestamp="1605002909085" />
     <state x="100" y="123" width="1240" height="597" key="DiffContextDialog" timestamp="1604996461048">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state x="100" y="123" width="1240" height="597" key="DiffContextDialog/0.23.1440.797@0.23.1440.797" timestamp="1604996461048" />
-    <state width="1396" height="380" key="GridCell.Tab.0.bottom" timestamp="1604997843296">
+    <state x="590" y="325" key="Github.ShareDialog" timestamp="1605002831576">
       <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="590" y="325" key="Github.ShareDialog/0.23.1440.797@0.23.1440.797" timestamp="1605002831576" />
+    <state x="396" y="125" key="Github.UntrackedFilesDialog" timestamp="1605002840326">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="396" y="125" key="Github.UntrackedFilesDialog/0.23.1440.797@0.23.1440.797" timestamp="1605002840326" />
+    <state width="1396" height="192" key="GridCell.Tab.0.bottom" timestamp="1605239719890">
+      <screen x="0" y="25" width="1440" height="790" />
     </state>
     <state width="1396" height="380" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1604997843296" />
-    <state width="1396" height="380" key="GridCell.Tab.0.center" timestamp="1604997843296">
-      <screen x="0" y="23" width="1440" height="797" />
+    <state width="1396" height="192" key="GridCell.Tab.0.bottom/0.25.1440.790/1440.25.1920.1055@0.25.1440.790" timestamp="1605239719890" />
+    <state width="1396" height="192" key="GridCell.Tab.0.center" timestamp="1605239719889">
+      <screen x="0" y="25" width="1440" height="790" />
     </state>
     <state width="1396" height="380" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1604997843296" />
-    <state width="1396" height="380" key="GridCell.Tab.0.left" timestamp="1604997843295">
-      <screen x="0" y="23" width="1440" height="797" />
+    <state width="1396" height="192" key="GridCell.Tab.0.center/0.25.1440.790/1440.25.1920.1055@0.25.1440.790" timestamp="1605239719889" />
+    <state width="1396" height="192" key="GridCell.Tab.0.left" timestamp="1605239719889">
+      <screen x="0" y="25" width="1440" height="790" />
     </state>
     <state width="1396" height="380" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1604997843295" />
-    <state width="1396" height="380" key="GridCell.Tab.0.right" timestamp="1604997843296">
-      <screen x="0" y="23" width="1440" height="797" />
+    <state width="1396" height="192" key="GridCell.Tab.0.left/0.25.1440.790/1440.25.1920.1055@0.25.1440.790" timestamp="1605239719889" />
+    <state width="1396" height="192" key="GridCell.Tab.0.right" timestamp="1605239719889">
+      <screen x="0" y="25" width="1440" height="790" />
     </state>
     <state width="1396" height="380" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1604997843296" />
+    <state width="1396" height="192" key="GridCell.Tab.0.right/0.25.1440.790/1440.25.1920.1055@0.25.1440.790" timestamp="1605239719889" />
+    <state x="475" y="126" key="RollbackChangesDialog" timestamp="1605239498665">
+      <screen x="0" y="25" width="1440" height="790" />
+    </state>
+    <state x="475" y="126" key="RollbackChangesDialog/0.25.1440.790/1440.25.1920.1055@0.25.1440.790" timestamp="1605239498665" />
     <state x="346" y="98" key="SettingsEditor" timestamp="1604998993807">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state x="1901" y="190" key="SettingsEditor/0.23.1440.797/1440.23.1920.1057@1440.23.1920.1057" timestamp="1603520520690" />
     <state x="346" y="98" key="SettingsEditor/0.23.1440.797@0.23.1440.797" timestamp="1604998993807" />
+    <state x="320" y="161" key="Vcs.Push.Dialog.v2" timestamp="1605002910283">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="320" y="161" key="Vcs.Push.Dialog.v2/0.23.1440.797@0.23.1440.797" timestamp="1605002910283" />
     <state x="412" y="176" width="615" height="490" key="find.popup" timestamp="1604999166377">
       <screen x="0" y="23" width="1440" height="797" />
     </state>

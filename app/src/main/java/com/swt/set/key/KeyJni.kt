@@ -30,7 +30,8 @@ class KeyJni : AppCompatActivity() {
          */
         val binding = ActivityHelloJniBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        binding.helloTextview.text = SwtKeyUtils.getSM2PublicKey(true)
+        binding.helloTextview.text = "debug:" + SwtKeyUtils.getSM2TestPublicKey() + "\n" +
+                "release:" + SwtKeyUtils.getSM2PublicKey()
     }
 
 
